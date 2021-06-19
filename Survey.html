@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body 
+            {
+                background-color: rgb(99, 181, 214);
+            }
+            #Core div
+            {
+                border: rgb(99, 181, 214);
+                padding: 20px;
+                background-color:white;
+                margin: 25px;
+            }
+            th {
+                text-align: right;
+                }
+             table, th  {
+                
+                width: 70%;
+                border: 1px solid white;
+                border-collapse: collapse;
+            }
+            td {               
+                border: 1px solid white;
+                border-collapse: collapse;
+                text-align: left;
+            }
+        </style>
+
+    </head>
+    <body>
+        <div>
+            <h1 style="text-align:center;">
+                <b>
+                    Survey Form
+                </b>
+            </h1>
+        </div>
+        <div id = "Core" >
+            <div>
+                <p style="text-align:center;">
+                    Let us know how we can improve freeCodeCamp
+                </p>
+                <form style="text-align:center;font-size: small;font-style: italic;">
+                    <table>
+                        <tr>
+                            <th>
+                                <label for="fname" style="text-align: center;" >
+                                
+                                    * Name: &nbsp&nbsp
+                                    
+                                </label>
+                            </th>
+                            <td>
+
+                                <input type="text" style="align-content: space-around;" id="Name" name="Name" value="Enter your name" size="34">
+                            
+                            </td>
+                        </tr>
+                        
+                    
+              
+                    <tr>
+                        <th>
+
+                    <label for="lname">
+                       
+                        * Email:&nbsp&nbsp
+                        
+                    </label>
+                    </th>
+                    <td>
+
+
+                    <input type="text" id="Email" name="Email" value="Enter your Email" size="34">
+                        </td> </tr>
+                  
+                        <tr><th>
+                            
+                    <label for="age">
+                        
+                        
+                        * Age:&nbsp&nbsp 
+
+                       
+                    </label>
+                    </th><td>
+
+                    <input type="number" id="age" style="align-content: stretch;" name="age" min="10" value="10" max="1000" size="34">
+                    </td></tr>
+                    
+                </form>
+                <br>
+                <form>
+                    <tr>
+                    <th>
+
+                    <label for="Role">
+                    
+                        
+                        Which option best describes your current role?  &nbsp&nbsp
+
+                    </label>
+                    </th><td>
+
+                    <select id="Role">
+                        <option value="Student" selected>Student</option>
+                        <option value="Professor">Professor</option>
+                        <option value="Professional">Professional</option>
+                        <option value="Others" >Others</option>
+                    </select> </td></tr>
+                    
+
+                    
+
+                    <label for="Survey" ><tr>
+                        <th>
+                        * How likely is that you would recommend &nbsp&nbsp </th>
+                        <td>
+                        
+                        <input type="radio" id="Definitely" name="idea" value="Definitely">
+                        <label for="Definitely">Definitely</label><br></td></tr>
+                    </label>
+                        <tr>
+                            <th><label>
+                        
+                        freeCodeCamp to a friend? &nbsp&nbsp </label></th>
+                        
+                    
+                                <td>
+                    <form>
+                        
+                        <input type="radio" id="MayBe" name="idea" value="MayBe">
+                        <label for="MayBe">Maybe</label><br>
+                        </form></td></tr>
+                        <tr><th></th><td>
+                        <input type="radio" id="NotSure" name="idea" value="NotSure">
+                        <label for="NotSure">
+                            Not Sure
+                        </label></td>
+
+                   </tr><tr><th>
+                    
+
+                    <label for="Survey2">
+                       
+                        What do you like most in FCC:&nbsp&nbsp
+                       
+
+                    </label></th><td>
+
+                    <select id="Survey2">
+                        <option value="Interactive-Live-sessions" >Interactive Live sessions</option>
+                        <option value="Teaching-methodologies">Teaching methodologies</option>
+                        <option value="Online-IDE">Online IDE</option>
+                        <option value="Coding-Problems" >Coding Problems</option>
+                        <option value="Tutorials" >Tutorials</option>
+                        <option value="Select-an-Option" selected>Select an Option</option>
+                    </select></td>
+                    
+                    </tr><tr><th>
+                    <label for="Survey3" >
+                        Things that should be improved in the future &nbsp&nbsp </label></th>
+                        <td> 
+                        <input type="checkbox" id="Front-end_projects" name="Front-end_projects" value="Front-end_projects">
+                        <label for="Front-end_projects">
+                             Front-end projects
+                        
+                        </label></td></tr>
+                        <tr><th>
+                        (Check all that apply):
+                        </th>
+                        <td>
+
+                        <input type="checkbox" id="Back-end_Projects" name="Back-end_Projects " value="Back-end_Projects">
+                        <label for="Back-end_Projects"> Back-end Projects</label><br>
+                            </td>
+                        </tr>
+                        <tr><th></th><td>
+                       
+                        <input type="checkbox" id="Data_Visualisation" name="Data_Visualisation" value="Data_Visualisation">
+                        <label for="Data_Visualisation"> Data Visualisation</label></td></tr>
+                        </label>
+
+                    </table>
+                </form>
+                <br>
+                
+                
+                <form style="text-align:center;font-size: small;font-style: italic;">
+                    <input type="submit" value="Submit">
+                    <input type="reset">  
+                </form>                 
+                
+            </div>
+        </div>
+
+    </body>
+</html>
